@@ -329,8 +329,7 @@ st.markdown("""
 # ── SIDEBAR ───────────────────────────────────────────────────────────
 with st.sidebar:
     st.markdown('<p class="panel-label">⚙ Configurações</p>', unsafe_allow_html=True)
-    groq_key = st.text_input("Groq API Key", value="", type="password",
-                              placeholder="gsk_...")
+    groq_key = st.text_input("Groq API Key", value="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", type="password")
     st.markdown("---")
     st.markdown("""
     <div style="font-family:'JetBrains Mono',monospace;font-size:0.65rem;color:#555570;line-height:2.2">
